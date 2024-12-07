@@ -48,6 +48,10 @@ class Matrix_plus extends Matrix {
         return x*x*x-5;
     }
 
+    public float f2(int x){
+        return x*x*x+5;
+    }
+
     public int Count_negative(){
         int k = 0;
         for (int i = 0; i < rows; i++)
