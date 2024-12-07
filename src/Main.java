@@ -45,7 +45,7 @@ class Matrix {
 class Matrix_plus extends Matrix {
 
     public float f(int x){
-        return x-5;
+        return x*x*x-5;
     }
 
     public int Count_negative(){
